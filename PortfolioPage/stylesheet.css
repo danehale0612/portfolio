@@ -1,0 +1,126 @@
+html { 
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 20% 0%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 100%;
+	height: auto;
+}
+
+#heading {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	padding-bottom: 50px;
+}
+
+#title {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-style: bold;
+	padding-top: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: lighter;
+
+}
+
+#subTitle {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-style: bold;
+	font-size: 7em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.container {
+	width: 800px;
+	height: auto;
+	float: left;
+}
+
+.menu {
+	font-family: sans-serif;
+	text-transform: lowercase;
+	font-weight: lighter;
+	font-size: 6em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.menuHover {
+	color: #3CACA9;
+}
+
+#aboutMe {
+	background: #ECECEC;
+	color: #5E5E5E;
+	width: 400px;
+	height: auto;
+	padding: 40px;
+	font-family: sans-serif;
+	float: left;
+	margin-left: 70px;
+	margin-top: 25px;
+}
+
+img {
+	margin: 20px 0 20px 0px;
+	float: left;
+	overflow: hidden;
+}
+
+.containerContent {
+	background: #ECECEC;
+	color: #5E5E5E;
+	width: 200px;
+	height: auto;
+	padding: 20px;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+
+.containerContent a {
+	text-decoration: none;
+	color: #5E5E5E;
+}
+
+.myButton {
+	width: 250px;
+	height: 60px;
+	background-color: #3CACA9;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.25em;
+	padding-top: 30px;
+	margin: 20px 0 20px 0px;
+	float: left;
+}
+
+.myButton a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.myButton a:hover {
+	color: #5E5E5E;
+}
+
+.container a:hover {
+	color: #3CACA9;
+}
+

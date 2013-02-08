@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Great Dane</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
+
+<script>
+	$(document).ready(function() {
+
+	$("#tip4").click(function() {
+	$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'		: 680,
+			'height'		: 495,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			   	 'wmode'		: 'transparent',
+				'allowfullscreen'	: 'true'
+			}
+		});
+
+	return false;
+});
+	
+});
+	</script>
+
+	<script>
+
+	$(document).ready(function(){
+
+		$('.container').hide(); //end of hide
+
+		$(".menu").click(function () {
+			$(this).next().slideToggle();
+		}); // end of click
+
+		$("h3").hover(function() {
+			$(this).toggleClass('menuHover');
+		});
+
+	});//end of doc
+	</script>
+
+</head>
+<body>
+
+
+	<div id="wrapper">
+
+		<div id="heading">
+
+			<h1 id="title">Dane Hale's</h1>
+
+			<h2 id="subTitle">World</h2>
+
+				<h3 class="menu">about</h3>
+
+					<div class="container">
+
+						<img src="images/profilePic.jpg" alt="Picture of Dane Hale" />
+
+						<p id="aboutMe">My name is Dane Hale.  I am currently a student at the Nashville Software School.  I have a passion for web applications and how software can change the world.  One of the best exhibits of great software mixed with beautiful hardware is my phone.  Click "My Phone - fancyBox" button below.</p>
+
+					</div> <!-- End of container -->
+
+				<h3 class='menu'>contact</h3>
+
+					<div class="container">
+
+						<div class="containerContent">
+
+							<p>phone: 615.605.4528</p>
+							<p><a href="mailto:danehale0612@gmail.com">Email Me</a></p>
+							<p><a href="https://github.com/danehale0612">github</a></p>
+
+						</div>
+
+					</div> <!-- End of container -->
+
+
+
+
+
+				<div class="myButton"><a id="tip4" href="http://www.youtube.com/watch?v=gZCU1_XWZqo">My Phone - fancyBox</a></div>
+			
+
+		</div> <!--End of Heading-->
+
+
+
+
+
+
+	</div> <!--End of Wrapper-->
+
+
+</body>
+</html>
